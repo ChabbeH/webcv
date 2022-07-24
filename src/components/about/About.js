@@ -18,11 +18,27 @@ function About() {
 
         <AbountContent>
           <p>
-            skrivanågotskrivanågotskrivanågotskrivanågotskrivan
-            ågotskrivanågotskrivanågotskrivanågotskrivanågotskriv
-            anågotskrivanågotskrivanågotskrivanågotskrivanågots
-            krivanågotskrivanågotskrivanågotskrivanågotskrivanågots
-            krivanågotskrivanågot
+            Hej! Jag är Junior Frontendutvecklare med en vilja att utvecklas.
+            Mina tidigare erfarenheter från MERN stack projekt och utbildning
+            till Applikationsutvecklare ser jag mig vara ett bra tillskott till
+            ert utvecklingsteam! Som person beskrivas jag som målmedveten,
+            nyfiken och ansvarstagande. Har lätt för att samarbeta med andra
+            människor, är alltid engagerad och organiserad i mitt arbete. Jag är
+            ambitiös och väldigt noggrann. Under min studietid som
+            Applikationsutvecklare så var det främst ett område som fångade mitt
+            intresse och det är Webbapplikationer, framför allt ramverket REACT.
+            Det är ett spännande område och jag är ivrig på att fortsätta
+            utvecklas och växa. Under mina studier fick jag även möjligheten att
+            arbeta med ett MERN stack projekt, vilket var givande eftersom det
+            täcker både front- och backend. Har tidigare drivit eget i
+            servicebranschen och därav vet jag vad som krävs och förväntas av
+            mig för att kunden ska vara nöjd. Under alla mina år har jag ofta
+            fått höra både av kunder och patienter att det känt sig nöjda och
+            tillfreds med servicen. Mina karaktärsdrag och yrkesmässiga
+            erfarenheter kommer vara en tillgång för er. Mina erfarenheter av
+            att arbeta på olika nivåer har utvecklat min förmåga att vara
+            lösningsorienterad. Jag hoppas att jag har väckt ert intresse och
+            får en chans att komma och presentera mig närmare.
           </p>
 
           <a href="#contact" className="btn btn-primary">
@@ -41,6 +57,7 @@ const Container = styled.div`
   width: var(--container-width-lg);
   margin: 0 auto;
   ${tablet({ gridTemplateColumns: "1fr", gap: "0" })}
+  ${mobile({ gridTemplateColumns: "1fr", gap: "0" })}
 `;
 
 const MeContainer = styled.div`
@@ -55,9 +72,8 @@ const MeContainer = styled.div`
   );
   display: grid;
   place-items: center;
-
-  ${mobile({ width: "35%", margin: "3rem auto 3rem" })}
   ${tablet({ width: "35%", margin: "3.7rem auto 5rem" })}
+  ${mobile({ width: "35%", margin: "2.5rem auto 2rem" })}
 `;
 
 const ImgContainer = styled.div`

@@ -98,7 +98,10 @@ const ContactContainer = styled.div`
   width: var(--container-width-lg);
   margin: 0 auto;
   margin-top: 1rem;
-  ${mobile({ width: "var(--container-width-sm) " })}
+  ${mobile({
+    gridTemplateColumns: "1fr",
+    gap: "2rem",
+  })}
   ${tablet({ gridTemplateColumns: "1fr", gap: "2rem" })}
 `;
 

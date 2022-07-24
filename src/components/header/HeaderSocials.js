@@ -2,6 +2,7 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import styled from "styled-components";
+import { mobile } from "../../responsive";
 
 function HeaderSocials() {
   return (
@@ -35,6 +36,8 @@ const HeaderSocialsContainer = styled.div`
     height: 2rem;
     background: var(--color-primary);
   }
+
+  ${mobile({ display: "none" })}
 `;
 
 export default HeaderSocials;

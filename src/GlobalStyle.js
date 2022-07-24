@@ -48,11 +48,6 @@ body {
 
 }
 
-.container {
-    width: var(--container-width-lg);
-    margin: 0 auto;
-}
-
 h1,h2,h3,h4,h5 {
     font-weight: 500;
 }
@@ -76,9 +71,6 @@ section > h2 {
     color: var(--color-primary);
 }
 
-.text-light{
-    color: var(--color-light);
-}
 
 a {
     color: var(--color-primary);
@@ -119,27 +111,6 @@ img {
     object-fit: cover;
 }
 
-@media screen and (max-width:1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 6rem;
-    }
-    
-}
-
-@media screen and (max-width:600px) {
-    .container{
-        width: var(--container-width-sm);
-    }
-
-    section > h2 {
-        margin-top: 2rem;
-    }
-    
-}
 `;
 
 export default Globals;

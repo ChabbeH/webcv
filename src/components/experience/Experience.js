@@ -88,7 +88,7 @@ const ExpContainer = styled.div`
   width: var(--container-width-lg);
   margin: 0 auto;
   margin-top: 1rem;
-  ${mobile({ gap: "1rem" })}
+  ${mobile({ gap: "1rem", gridTemplateColumns: "1fr" })}
   ${tablet({ gridTemplateColumns: "1fr" })}
 
   > div {
