@@ -40,10 +40,6 @@ function About() {
             lösningsorienterad. Jag hoppas att jag har väckt ert intresse och
             får en chans att komma och presentera mig närmare.
           </p>
-
-          <a href="#contact" className="btn btn-primary">
-            Kontakta Mig
-          </a>
         </AbountContent>
       </Container>
     </section>

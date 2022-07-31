@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Hör Av Er</h5>
+      <h5>Hör av er</h5>
       <h2>Kontakta Mig</h2>
 
       <ContactContainer>
@@ -48,7 +48,7 @@ const Contact = () => {
               style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}
             />
             <h4>Messenger</h4>
-            <h5>assaf</h5>
+            <h5>Charbel Hannon</h5>
             <a
               href="https://m.me/charbel.hannon"
               target="_blank"

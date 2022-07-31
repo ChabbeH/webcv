@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const Globals = createGlobalStyle`
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -12,12 +13,13 @@ const Globals = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+   
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #0A2239;
+    --color-bg-variant: #1D84B5;
+    --color-primary: #53A2BE;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white:#fff;
     --color-light:rgba(255,255,255,0.6);
@@ -27,6 +29,7 @@ const Globals = createGlobalStyle`
     --container-width-lg:75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+    
 }
 
 html {
@@ -44,7 +47,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(../src/assets/bg-texture-copy.png);
 
 }
 
@@ -109,6 +112,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    
 }
 
 `;
