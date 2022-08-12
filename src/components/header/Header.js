@@ -3,7 +3,7 @@ import Cv from "./Cv";
 import HeaderSocials from "./HeaderSocials";
 import ME from "../../assets/me.png";
 import styled from "styled-components";
-import { mobile, tablet } from "../../responsive";
+import { mobile } from "../../responsive";
 
 function Header() {
   return (
@@ -15,9 +15,9 @@ function Header() {
         <Cv />
         <HeaderSocials />
 
-        <ImgContainer>
+        {/*  <ImgContainer>
           <img src={ME} alt="me" />
-        </ImgContainer>
+        </ImgContainer> */}
 
         <ScrollDown href="#contact">Skrolla Ner</ScrollDown>
       </Container>
@@ -26,12 +26,12 @@ function Header() {
 }
 
 const HeaderContainer = styled.header`
-  height: 80vh;
+  height: 40vh;
   padding-top: 7rem;
   overflow: hidden;
   width: var(--container-width-lg);
   margin: 0 auto;
-  ${mobile({ height: "60vh", marginRight: "3.2rem" })}
+  ${mobile({ paddingTop: "3rem", height: "19vh" })}
 `;
 
 const Container = styled.div`

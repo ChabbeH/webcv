@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { mobile, tablet } from "./responsive";
 
 const Globals = createGlobalStyle`
 
@@ -18,8 +19,8 @@ const Globals = createGlobalStyle`
 
 :root {
     --color-bg: #0A2239;
-    --color-bg-variant: #1D84B5;
-    --color-primary: #53A2BE;
+    --color-bg-variant: #15577A;
+    --color-primary: #1A749E;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white:#fff;
     --color-light:rgba(255,255,255,0.6);
@@ -47,7 +48,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture-copy.png);
+    background-image:url("https://i.postimg.cc/JhcPNFN5/bg-texture1.png");
 
 }
 
@@ -61,6 +62,8 @@ h1 {
 
 section {
     margin-top: 8rem;
+    ${mobile({ marginTop: "4rem" })}
+    ${tablet({ marginTop: "1rem" })}
     
   
 }
@@ -68,6 +71,7 @@ section {
 section > h2, section > h5 {
     text-align: center;
     color: var(--color-light);
+    
 }
 
 section > h2 {

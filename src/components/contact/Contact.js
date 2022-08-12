@@ -62,7 +62,7 @@ const Contact = () => {
               style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}
             />
             <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
+            <h5>+46760459596</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+46760459596"
               target="_blank"
@@ -94,8 +94,8 @@ const ContactContainer = styled.div`
   width: 58%;
   display: grid;
   grid-template-columns: 30% 58%;
-  gap: 12%;
-  width: var(--container-width-lg);
+  gap: 16%;
+  width: 55%;
   margin: 0 auto;
   margin-top: 1rem;
   ${mobile({
@@ -145,6 +145,9 @@ const InputCon = styled.input`
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  ::placeholder {
+    color: white;
+  }
 `;
 
 const TextArea = styled.textarea`
@@ -155,6 +158,9 @@ const TextArea = styled.textarea`
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  ::placeholder {
+    color: white;
+  }
 `;
 
 export default Contact;
