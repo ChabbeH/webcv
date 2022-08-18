@@ -10,44 +10,34 @@ function Experience() {
 
       <ExpContainer>
         <ExpFrontend>
-          <h3>Frontend Utveckling</h3>
+          <h3 color="white">Frontend Utveckling</h3>
           <ExpContent>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>HTML</h4>
               </div>
             </ExpDetail>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>CSS</h4>
               </div>
             </ExpDetail>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>JavaScript</h4>
               </div>
             </ExpDetail>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>Bootstrap</h4>
               </div>
             </ExpDetail>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>React</h4>
               </div>
@@ -58,17 +48,13 @@ function Experience() {
           <h3>Backend Utveckling</h3>
           <ExpContent>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>Node JS</h4>
               </div>
             </ExpDetail>
             <ExpDetail>
-              <BsPatchCheckFill
-                style={{ marginTop: "6px", color: "var(--color-primary" }}
-              />
+              <BsPatchCheckFill style={{ marginTop: "6px", color: "white" }} />
               <div>
                 <h4>MongoDB</h4>
               </div>
@@ -110,7 +96,7 @@ const ExpContainer = styled.div`
   > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: #dcdcdc;
   }
 `;
 
