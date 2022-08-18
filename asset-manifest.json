@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "//chabbeh.github.io/webcv/static/js/main.c2669007.js",
+    "main.js": "//chabbeh.github.io/webcv/static/js/main.875e2464.js",
     "static/media/me.png": "//chabbeh.github.io/webcv/static/media/me.2a14364558cdf5b3703b.png",
     "static/media/cv.pdf": "//chabbeh.github.io/webcv/static/media/cv.f37b8b7172d2a653b148.pdf",
     "static/media/portfolio2.png": "//chabbeh.github.io/webcv/static/media/portfolio2.7de21cd702e12fb8be5e.png",
     "static/media/portfolio1.png": "//chabbeh.github.io/webcv/static/media/portfolio1.61fd206d321dfbdadd94.png",
     "static/media/portfolio3.png": "//chabbeh.github.io/webcv/static/media/portfolio3.bfd67e7dc87c19f91765.png",
     "index.html": "//chabbeh.github.io/webcv/index.html",
-    "main.c2669007.js.map": "//chabbeh.github.io/webcv/static/js/main.c2669007.js.map"
+    "main.875e2464.js.map": "//chabbeh.github.io/webcv/static/js/main.875e2464.js.map"
   },
   "entrypoints": [
-    "static/js/main.c2669007.js"
+    "static/js/main.875e2464.js"
   ]
 }
