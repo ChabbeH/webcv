@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CV from "../../assets/cv.pdf";
+import { mobile } from "../../responsive";
 
 function Cv() {
   return (
@@ -20,6 +21,7 @@ const CvContainer = styled.div`
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  ${mobile({ flexWrap: "wrap" })}
 `;
 
 export default Cv;

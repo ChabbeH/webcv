@@ -26,7 +26,7 @@ const HeaderContainer = styled.header`
   overflow: hidden;
   width: var(--container-width-lg);
   margin: 0 auto;
-  ${mobile({ paddingTop: "3rem", height: "30vh" })}
+  ${mobile({ paddingTop: "3rem", height: "55vh", width: "75%" })}
 `;
 
 const Container = styled.div`
