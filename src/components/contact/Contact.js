@@ -81,9 +81,7 @@ const Contact = () => {
             placeholder="Ditt Meddelande"
             required
           ></TextArea>
-          <button type="submit" className="btn btn-primary">
-            Skicka Ett Meddelande
-          </button>
+          <SendButton type="submit">SKICKA</SendButton>
         </Form>
       </ContactContainer>
     </section>
@@ -160,6 +158,26 @@ const TextArea = styled.textarea`
   color: var(--color-white);
   ::placeholder {
     color: white;
+  }
+`;
+
+const SendButton = styled.button`
+  width: max-content;
+  display: inline-block;
+  color: var(--color-white);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  background: var(--color-primary);
+  color: var(--color-bg);
+
+  &:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+    ${mobile({ width: "35%", height: "25%" })}
   }
 `;
 
